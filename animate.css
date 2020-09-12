@@ -1,0 +1,48 @@
+body{
+    margin: 0 auto;
+    padding: 0%;
+}    
+
+.fixed video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.fixed{
+    width: 80%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin: 10px auto;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 #000, 0 6px 20px 0 #000;
+    border: 2px black;          
+}
+
+.box{
+    z-index: 1; 
+    height:600px ;
+    max-width: 1000px;  
+    background-image: url("white.png");
+    border-radius: 5px;
+}
+.overlay{
+    
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    margin-top: 200px;
+    color: whitesmoke;   
+}
+
+ .overlay h2{
+    font-size: 80px;
+    font-family: rajdhani, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    opacity: 1;    
+}
