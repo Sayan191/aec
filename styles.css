@@ -2,6 +2,7 @@
 body{
   background-color:#333;
 }
+
 .navbar{
   position: relative;
   top: 0;
@@ -26,8 +27,8 @@ body{
 
 .navbar li a{
   display:block;
-  color: rgba(255, 255, 255, 1);
-	padding:20px;
+  color: #ffffff;
+  padding:20px;
   text-decoration:none;
   font-family:Courier;
   
@@ -35,8 +36,9 @@ body{
 
 li a:hover{
  
-  box-shadow: 0 5px 15px rgba(250, 4, 4, 1);
+  box-shadow: 0 5px 15px #ffffff;
   text-decoration: none;
+  
 }
   
   
@@ -72,16 +74,24 @@ li a:hover{
   position: relative;
   max-width: 1000px;
   border: 2px black;
-  box-shadow: 0 4px 8px 0 rgba(255, 1, 1, 1), 0 6px 20px 0 rgba(255, 0, 0, 1);
+  box-shadow: 0 4px 8px 0 #000, 0 6px 20px 0 #000;
   margin-top: 20px;
   margin-bottom: 20px;
-  background-color: black;
+  background-color: #333;
   
 }
 
 h2,p{
-  color: whitesmoke;
+  color: #ffffff;
+  font-family: rajdhani, sans-serif;
 }
+
+ .card .dropcap {
+  float: left;
+  font-size: 400%;
+
+  margin: -13px 7px -13px 0;
+  }
 
 .image{
   display: flex;
@@ -102,26 +112,32 @@ h2,p{
   display: block;
   cursor: pointer;
   transition: 0.8s;
-  border-color: red;  
+  border-color: #ffffff;  
   width: 25%;
   height: 400px;
   
 }
 .cnt h3{
+  color: #ffffff;
+  font-family: rajdhani, sans-serif;
+  font-weight: bold;
   text-align: center;
   vertical-align: middle;
-  border: 3px;
   line-height: 400px;
   transform: scale(1);
-  transition: all 0.3s ease-in-out 0.2s;
+  text-shadow: 2px 3px#000;
 }
-h3:hover{
-  transform: scale(0.8);
+.cnt h3:hover{
+  transition: all 0.4s ease;
+  transform: scale(0.9);
+  color: #333;
+  
 }
 
 .cnt:hover{
-  background-color: red;
+  background-color: #ffffff;
   width: 30%;
   height: 430px;
   transition: all 0.4s ease;
+  columns: #333;
 }
